@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="&gt;&gt;listViewExpressions.Name" xml:space="preserve">
+    <value>listViewExpressions</value>
+  </data>
+  <data name="&gt;&gt;listViewExpressions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewExpressions.Parent" xml:space="preserve">
+    <value>panelExpressions</value>
+  </data>
+  <data name="&gt;&gt;listViewExpressions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>panelExpressions</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelExpressions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelExpressions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelExpressions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>741, 448</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelExpressions.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelExpressions.Name" xml:space="preserve">
+    <value>panelExpressions</value>
+  </data>
+  <data name="&gt;&gt;panelExpressions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelExpressions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelExpressions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="listViewExpressions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="listViewExpressions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="listViewExpressions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>741, 423</value>
+  </data>
+  <data name="listViewExpressions.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;listViewExpressions.Name" xml:space="preserve">
+    <value>listViewExpressions</value>
+  </data>
+  <data name="&gt;&gt;listViewExpressions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewExpressions.Parent" xml:space="preserve">
+    <value>panelExpressions</value>
+  </data>
+  <data name="&gt;&gt;listViewExpressions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="columnHeaderName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="columnHeaderExpression.Text" xml:space="preserve">
+    <value>Expression</value>
+  </data>
+  <data name="columnHeaderExpression.Width" type="System.Int32, mscorlib">
+    <value>600</value>
+  </data>
+  <data name="columnHeaderComments.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="columnHeaderComments.Width" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>741, 25</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>panelExpressions</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="toolStripButtonLaunchXpath.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIhSURBVDhPrZPfS1NxGMb9p7rQG7upqC686CovEwwMsbbB
+        FpSGRQ4SNSq0dJqaziw1M/sBauamm26KSq5iaXM/NX80XClr+55P552wTpeBB87NgefzPO/7vKeg4Cie
+        3lEfPa/meDIyS/dLL13DHjpfTNMx6KZ9wIXj+Qda+yd59HSCh33jtDjHyPuKWEOhNEVGKdJZxUFG8Sut
+        SB0okvsauz81tvY0NpIa8R8akR2NY6fLDiHiLOK6jgVs97xU1XuovOOl/LaX0uoZSqxuTl1xUXzJReFF
+        NycsfkJbBoDEFmdLo4eFb+ANwmQA3ixpDM4pelyK1vEsd19nqBv6zXFblNVNA0Bmltimhhlmv6LHhNgu
+        hLb5R2zXxaa2JEWWCMGEASALk5kFMPUJ3urOQz5Fr1vRJs6jGW49O8D6eI+K+9sUmiN8jvN3B7JtWZgA
+        3i1rrOvOq5vwJQErUVhaB//q4WgX6mM5QED/nl+iVCXbFsCwX+GcVjgmsjSOpLnZv4+tM0VVyw7lDXFK
+        a9coNIX5GDYApGepSgB9ulicxcHoPLUCY4tw7mogB1jWU+UTyJFIz5YmD+3vs9gHUtQ4U5gdSSoebOdi
+        i7OIz16ep8gcZjFkAMiFyZFcb/ZR4whyo/s7Vscmlc0blDUlOG+PU1Ib4+S1KMV6hWeqY7m68wnkPI0X
+        JkciPUtVsm0ZR2aW2OIs4vk1A0CuUWj/+x7FP3g0jD+qHVIhqzbEYgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonLaunchXpath.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="toolStripButtonLaunchXpath.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButtonLaunchXpath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="toolStripButtonLaunchXpath.Text" xml:space="preserve">
+    <value>Launch...</value>
+  </data>
+  <data name="toolStripButtonLaunchXpath.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="toolStripButtonLaunchXpath.ToolTipText" xml:space="preserve">
+    <value>Launch XPath expression in a new tab (Shift+Enter)</value>
+  </data>
+  <data name="toolStripButtonEditExpressions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButtonEditExpressions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="toolStripButtonEditExpressions.Text" xml:space="preserve">
+    <value>Edit Expressions...</value>
+  </data>
+  <data name="toolStripButtonDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripButtonDelete.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButtonDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripButtonDelete.Text" xml:space="preserve">
+    <value>Delete selected expressions</value>
+  </data>
+  <data name="toolStripLabelFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="toolStripLabelFilter.ToolTipText" xml:space="preserve">
+    <value>Filter expressions list</value>
+  </data>
+  <data name="toolStripSpringTextBoxFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 25</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>741, 448</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAB0V0NoTTpkSDZpTDlrTjlsUDtsUT1xUkCEZVSWe2yvmIwAAAAAAAAAAAAAAAB7WUe4dnRtUT1b
+        QzK1Z2e2Z2i7b2+9cnHBdnrHgYPCfXybbF8AAAAAAAAAAAB5WEa4dnTj2tWYd16XdmCfg27Kuq/XzMPj
+        2tXp4t7m3dm/eniuaGUAAAAAAAB5WEa4dnTLm5rj2tWYd17l0cLZzsabe2askYDd0svp4dzq49/FgIG3
+        bm4AAAB5WEazc2/IlZTw6+jj2tWfemDfyrvp497r5eHXwrWbe2bf1M7s5uDLh4q9dXUAAACugHi6enj/
+        ///w6+jj2tWhfGLfyrvp49739fP///////+XdmDw6+jPjY/CenwAAAC4gHu6e3j////w6+jj2tWof2jf
+        yrvp49739fP///////+Xd2Dv6ufUk5XJhIcAAADCh4S9fHn////w6+jj2tWvhmzfyrvp49739fP/////
+        //+eemTv6OXVlpjNiYwAAADFioi9fnv////w6+jj2tXCl33fyrvp49739fP///////+jfGbs5uHXmJvQ
+        jZAAAADIjo7AgX3//f/w6+jj2tXIm4Hfyrvp49739fP///////+ogGrr4d/XmJvVlZgAAADPlpbChH//
+        //7w6+jizsHcuqnhxLPp49739fP///////+5i3HanZ/iqawAAAAAAADUnp7GiYH//v7w6+flw68AAADp
+        1MvKrqHKo4728Oz////EkXUAAAAAAAAAAAAAAADir7HJkIX//v/z6uXdsZcAAAAAAAAAAADo1svHrJ7K
+        o47Pp5AAAAAAAAAAAAAAAAAAAADVo43////ftp8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAADbrZMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA+AAAAPAA
+        AADgAAAAwAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIABAACCBwAAg4cAAMf/AADv/wAA
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Expressions</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderName.Name" xml:space="preserve">
+    <value>columnHeaderName</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderExpression.Name" xml:space="preserve">
+    <value>columnHeaderExpression</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderExpression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderComments.Name" xml:space="preserve">
+    <value>columnHeaderComments</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderComments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonLaunchXpath.Name" xml:space="preserve">
+    <value>toolStripButtonLaunchXpath</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonLaunchXpath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonEditExpressions.Name" xml:space="preserve">
+    <value>toolStripButtonEditExpressions</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonEditExpressions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonDelete.Name" xml:space="preserve">
+    <value>toolStripButtonDelete</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabelFilter.Name" xml:space="preserve">
+    <value>toolStripLabelFilter</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabelFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSpringTextBoxFilter.Name" xml:space="preserve">
+    <value>toolStripSpringTextBoxFilter</value>
+  </data>
+  <data name="&gt;&gt;toolStripSpringTextBoxFilter.Type" xml:space="preserve">
+    <value>XmlExplorer.Controls.ToolStripSpringTextBox, XmlExplorer.Controls, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ExpressionsWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>WeifenLuo.WinFormsUI.Docking.DockContent, WeifenLuo.WinFormsUI.Docking, Version=2.4.3713.24741, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
